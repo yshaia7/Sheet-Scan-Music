@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sheet Music Scanner</string>
+    <string name="welcome_desc">Turn scanned music pages to MIDI files</string>
+    <string name="pause">Pause</string>
+    <string name="download_file_and_img_from_server_with_arg">Scan new file</string>
+    <string name="play_from_last_download">Display results from the previous scan</string>
+    <string name="let_s_know">Press here to learn</string>
+    <string name="start">Start</string>
+    <string name="song_speed">Select the value of Song speed</string>
+    <string name="compress_image">Compress image</string>
+</resources>
+
+

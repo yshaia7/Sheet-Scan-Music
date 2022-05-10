@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.IntroActivity"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:textColor="@color/blow"
+        android:text="Instructions" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:scrollbars = "vertical"
+        android:id="@+id/btnIntro"
+        android:text="1.In the main screen, pick the first option scan a new image, or the second option to replay the last scan.
+\n\n2. Upon selecting the first option, you can either take a new picture, or open an existing one using the file explorer.
+\n\n3. After picking one of these options, you will be prompted to crop the image. Crop out any part that you don't wish to be scanned, and press the &quot;crop&quot; button.
+\n\n 4. You will receive a prompt to confirm whether or not you're happy with the result. Pressing &quot;no&quot; will let you try to crop the image once again.
+\n\n5. Upon confirmation, you can swipe up and either retry the process with a new image, or upload the cropped image to the server.
+\n\n6. Press &quot;Upload image&quot; to send the image to the server to be scanned.
+\n\n7. If the scan is successful, you will be sent an image of the scanned image, along with the MIDI file.
+\n\n *You can find the finished MIDI file im your device's &quot;downloads&quot; folder*
+" />
+
+
+</LinearLayout>
+

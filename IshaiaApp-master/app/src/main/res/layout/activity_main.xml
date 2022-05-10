@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+
+    android:orientation="vertical"
+    android:padding="@dimen/_14sdp"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:layout_width="332dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:background="@drawable/title" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:background="@drawable/comp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:background="@drawable/scan"
+        />
+
+
+    <ImageButton
+        android:id="@+id/button_post_image"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:background="@drawable/my_selector"
+        android:src="@drawable/scan_new_file"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp" />
+
+    <ImageButton
+
+        android:id="@+id/btnLoadLastFile"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/my_selector"
+        android:scaleType="fitXY"
+        android:src="@drawable/display_results_from_previous_scan" />
+
+
+    <ImageView
+
+        android:layout_width="141dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:background="@drawable/inst" />
+
+
+    <ImageButton
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/btnIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:text="@string/let_s_know"
+        android:background="@drawable/my_selector"
+        android:scaleType="fitXY"
+        android:src="@drawable/how_to_use"/>
+
+</LinearLayout>
